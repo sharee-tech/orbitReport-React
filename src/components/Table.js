@@ -1,17 +1,17 @@
 const Table = ({ sat }) => {
   return (
-      <table>
-       <thead>
+    <table>
+      <thead>
         <tr>
           <th>Header TBD</th>
         </tr>
-        </thead>
-        <tbody>
+      </thead>
+      <tbody>
         <tr>
           <td>Row Data TBD</td>
         </tr>
-        </tbody>
-      </table>
+      </tbody>
+    </table>
   );
 };
 

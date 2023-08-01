@@ -3,7 +3,7 @@ const Buttons = () => {
     <div>
       <button>Placeholder Button</button>
       <button>All Orbits</button>
-      </div>
+    </div>
   );
 };
 
