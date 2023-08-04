@@ -1,4 +1,5 @@
 import satData from "../components/satData";
+import "./styling.css";
 
 const Table = ({ sat }) => {
   return (
@@ -17,7 +18,7 @@ const Table = ({ sat }) => {
             <td>{data.name}</td>
             <td>{data.type}</td>
             <td>{data.launchDate}</td>
-            <td>{data.orbitType}</td>
+            <td>{data.operational ? "Active" : "Inactive"}</td>
           </tr>
         ))}
       </tbody>
