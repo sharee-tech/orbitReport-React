@@ -6,6 +6,7 @@ import satData from "./components/satData";
 
 function App() {
   const [sat, setSat] = useState(satData);
+  // displaySats is an array that holds the orbit type of each satellite (low, medium, hight)
   const displaySats = [...new Set(satData.map((data) => data.orbitType))];
   const filterByType = (currentType) => {
     const displaySats = satData.filter((newSatDisplay) => {
@@ -27,5 +28,3 @@ function App() {
 }
 
 export default App;
-
-// addLatestHike = (miles, lifetimeTotal) => lifetimeTotal + miles;
